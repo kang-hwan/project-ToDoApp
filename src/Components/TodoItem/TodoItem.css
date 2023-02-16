@@ -1,0 +1,51 @@
+.todo-item-complete {
+  border: solid 1px black;
+  background-color: lightgray;
+  border-radius: 10px;
+  width: 400px;
+  margin: 20px 5px;
+  padding: 10px 18px;
+  box-shadow: 3px 5px;
+  text-decoration: line-through;
+}
+
+.todo-item-incomplete {
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  margin: 20px 5px;
+  padding: 10px 18px;
+  box-shadow: 3px 5px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-complete {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 2px;
+  width: 30px;
+  text-align: center;
+}
+
+.btn-delete {
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 2px;
+  width: 30px;
+}
